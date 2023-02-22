@@ -25,7 +25,7 @@ sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=compose
 
 composer
 
-# mysql
+## mysql
 
 sudo apt update
 
@@ -44,3 +44,23 @@ sudo mysql_secure_installation
 mysql -u root -p
 
 create database 'database_name';
+
+## nginx
+
+sudo apt update
+
+sudo apt install nginx
+
+systemctl status nginx
+
+## nginx commands
+
+sudo systemctl stop nginx
+
+sudo systemctl start nginx
+
+sudo systemctl restart nginx
+
+sudo systemctl reload nginx
+
+sudo systemctl disable nginx
