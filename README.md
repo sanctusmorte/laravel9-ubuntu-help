@@ -55,6 +55,7 @@ systemctl status nginx
 
 ## nginx config for laravel 9 ubuntu 22.0, php-fpm8.1
 
+```
 server {
     listen 80;
     listen [::]:80;
@@ -87,6 +88,7 @@ server {
         deny all;
     }
 }
+```
 
 ## nginx commands
 
