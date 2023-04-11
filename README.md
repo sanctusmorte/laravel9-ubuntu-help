@@ -60,11 +60,8 @@ server {
     listen 80;
     listen [::]:80;
     server_name ;
-    root /var/www/hackdota/public;
-
-    add_header X-Frame-Options "SAMEORIGIN";
-    add_header X-Content-Type-Options "nosniff";
-
+    root /var/www/project/public;
+    
     index index.php;
 
     charset utf-8;
