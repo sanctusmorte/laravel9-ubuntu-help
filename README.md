@@ -4,7 +4,12 @@
 
 sudo apt update
 
+apt install lsb-release ca-certificates apt-transport-https software-properties-common -y
+
+add-apt-repository ppa:ondrej/php
+
 sudo apt install --no-install-recommends php8.1
+
 
 php -v
 
