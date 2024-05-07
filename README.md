@@ -13,9 +13,16 @@ sudo apt install --no-install-recommends php8.1
 
 php -v
 
+```
 sudo apt-get install -y php8.1-cli php8.1-common php8.1-mysql php8.1-zip php8.1-gd php8.1-mbstring php8.1-curl php8.1-xml php8.1-bcmath
 
 sudo apt install php8.1-fpm
+```
+
+```
+sudo apt-get install php8.3 php8.3-mbstring php8.3-gettext php8.3-zip php8.3-fpm php8.3-curl php8.3-mysql php8.3-gd php8.3-cgi php8.3-soap php8.3-sqlite3 php8.3-xml php8.3-redis php8.3-bcmath php8.3-imagick php8.3-intl php8.3-fpm -y
+```
+
 
 
 ## composer
